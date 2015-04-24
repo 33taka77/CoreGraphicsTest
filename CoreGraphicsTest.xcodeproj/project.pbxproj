@@ -13,6 +13,8 @@
 		8190C7CC1AE9E08C00C2ED4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8190C7CB1AE9E08C00C2ED4A /* Images.xcassets */; };
 		8190C7CF1AE9E08C00C2ED4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8190C7CD1AE9E08C00C2ED4A /* LaunchScreen.xib */; };
 		8190C7DB1AE9E08C00C2ED4A /* CoreGraphicsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190C7DA1AE9E08C00C2ED4A /* CoreGraphicsTestTests.swift */; };
+		8190C7E51AE9E0ED00C2ED4A /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8190C7E41AE9E0ED00C2ED4A /* PushButtonView.swift */; };
+		81E555731AE9FC65005D2F43 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E555721AE9FC65005D2F43 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		8190C7D41AE9E08C00C2ED4A /* CoreGraphicsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8190C7D91AE9E08C00C2ED4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8190C7DA1AE9E08C00C2ED4A /* CoreGraphicsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsTestTests.swift; sourceTree = "<group>"; };
+		8190C7E41AE9E0ED00C2ED4A /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
+		81E555721AE9FC65005D2F43 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				8190C7C41AE9E08C00C2ED4A /* AppDelegate.swift */,
 				8190C7C61AE9E08C00C2ED4A /* ViewController.swift */,
 				8190C7C81AE9E08C00C2ED4A /* Main.storyboard */,
+				8190C7E41AE9E0ED00C2ED4A /* PushButtonView.swift */,
+				81E555721AE9FC65005D2F43 /* GraphView.swift */,
 				8190C7CB1AE9E08C00C2ED4A /* Images.xcassets */,
 				8190C7CD1AE9E08C00C2ED4A /* LaunchScreen.xib */,
 				8190C7C21AE9E08C00C2ED4A /* Supporting Files */,
@@ -213,7 +219,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8190C7C71AE9E08C00C2ED4A /* ViewController.swift in Sources */,
+				8190C7E51AE9E0ED00C2ED4A /* PushButtonView.swift in Sources */,
 				8190C7C51AE9E08C00C2ED4A /* AppDelegate.swift in Sources */,
+				81E555731AE9FC65005D2F43 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				8190C7E01AE9E08C00C2ED4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8190C7E11AE9E08C00C2ED4A /* Build configuration list for PBXNativeTarget "CoreGraphicsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				8190C7E31AE9E08C00C2ED4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
