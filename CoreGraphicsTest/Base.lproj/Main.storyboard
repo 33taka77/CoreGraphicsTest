@@ -26,8 +26,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xQU-Ph-paI" customClass="GraphView" customModule="CoreGraphicsTest" customModuleProvider="target">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xQU-Ph-paI" customClass="GraphView" customModule="CoreGraphicsTest" customModuleProvider="target">
+                                <rect key="frame" x="157" y="150" width="300" height="300"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhG-je-LkG">
                                         <rect key="frame" x="25" y="13" width="42" height="21"/>
@@ -65,6 +65,9 @@
                             <constraint firstAttribute="centerX" secondItem="SiK-9u-rGx" secondAttribute="centerX" id="ywT-02-tLs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="graphView" destination="xQU-Ph-paI" id="REk-BF-DeO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
